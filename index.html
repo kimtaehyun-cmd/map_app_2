@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map_App</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId="
+    ></script>
+  </head>
+  <body>
+    <!-- <h2>deploy test</h2> -->
+    <div class="wrapper">
+      <section class="search">
+        <div class="box">
+          <div class="search_engine">
+            <input type="input" placeholder="도서관 이름 또는 지역 검색" />
+            <button><i class="ri-search-line"></i></button>
+          </div>
+        </div>
+      </section>
+      <div id="map">
+        <!-- <img src="images/map.jpg" alt="" /> -->
+      </div>
+
+      <div class="detail_box">
+        <div class="guide"><i class="ri-arrow-drop-up-line"></i></div>
+
+        <div class="detail_wrapper"></div>
+      </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
